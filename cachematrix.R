@@ -38,7 +38,7 @@ cacheSolve <- function(x, ...) {
       message("getting cached data")
       return(inv)
   }
-  ## If the matrix is not empty, the function go on, taking the original matrix from x
+  ## If the inverse matrix is null, the function goes on, calculating the inverse from the original matrix
   data <- x$get()
   
   ## Creation of the inv variable
