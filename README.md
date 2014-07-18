@@ -22,4 +22,3 @@ getting cached data
 [2,]   -3    2
 > my_inverse <- cacheSolve(my_matrix)
 getting cached data
-> 
